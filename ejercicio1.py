@@ -21,10 +21,10 @@ class AlumnoDOO:
     asignatura = "Desarrollo Orientado a Objetos"
     carrera = "Grado en Ingeniería Matemática"
 
-    def __init__(self, nombre, apellido, email, nota_teoria, nota_practica):
+    def __init__(self, nombre, apellido, gmail, nota_teoria, nota_practica):
         self.nombre = nombre
         self.apellido = apellido
-        self.email = email
+        self.gmail = gmail
         self.nota_teoria = nota_teoria
         self.nota_practica = nota_practica
 
@@ -54,7 +54,7 @@ class AlumnoDOO:
 
 
 # Crear un alumno y mostrar su nota
-alumno1 = AlumnoDOO("Sara", "Sánchez", "sara@email.com", 7, 5)
+alumno1 = AlumnoDOO("Sara", "Sánchez", "sara.sanchez@gmail.com", 7, 5)
 print(alumno1.mostrarNota())
 
 # Subir la nota un punto y mostrarla

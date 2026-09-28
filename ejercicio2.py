@@ -22,3 +22,4 @@ fruta2 = CestaFruta("peras", 2)
 fruta3 = CestaFruta("cerezas", 5)
 
 # Mostrar el contenido de la cesta
+print(CestaFruta.cesta)
