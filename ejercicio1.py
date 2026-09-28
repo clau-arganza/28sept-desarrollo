@@ -54,7 +54,7 @@ class AlumnoDOO:
 
 
 # Crear un alumno y mostrar su nota
-alumno1 = AlumnoDOO("Sara", "Sánchez", "sara.sanchez@gmail.com", 7, 5)
+alumno1 = AlumnoDOO("Sara", "Sánchez", "sara.sanchez@gmail.com", 3.5, 8)
 print(alumno1.mostrarNota())
 
 # Subir la nota un punto y mostrarla
@@ -62,5 +62,5 @@ alumno1.modificarNota(1)
 print(alumno1.mostrarNota())
 
 # Bajar la nota dos puntos y mostrarla
-alumno1.modificarNota(-2)
+alumno1.modificarNota(-20)
 print(alumno1.mostrarNota())
